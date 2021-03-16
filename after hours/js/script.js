@@ -127,3 +127,4 @@ const myGameArea = {
     myGameArea.score();
   }
   
+  
