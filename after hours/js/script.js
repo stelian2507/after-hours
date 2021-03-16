@@ -10,6 +10,7 @@ const myGameArea = {
       this.context = this.canvas.getContext('2d');
       document.body.insertBefore(this.canvas, document.body.childNodes[0]);
       // call updateGameArea() every 20 milliseconds
+      
       this.interval = setInterval(updateGameArea, 20);
       score: function () {
         const points = Math.floor(this.frames / 5);
@@ -126,5 +127,4 @@ const myGameArea = {
     checkGameOver();
     myGameArea.score();
   }
-  
   
